@@ -4,6 +4,10 @@
     "description": "Adds a new command that autostashes your changes when switching to a new branch and pops previously stashed changes on that branch automatically",
     "version": "0.0.1",
     "publisher": "HonzaKubita",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HonzaKubita/git-checkout-autostash"
+    },
     "engines": {
         "vscode": "^1.91.0"
     },
