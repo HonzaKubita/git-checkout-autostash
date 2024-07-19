@@ -21,7 +21,7 @@
         "commands": [
             {
                 "command": "checkoutstash.checkout",
-                "title": "Git: Checkout (Automatic Stash)"
+                "title": "Git: Checkout to... (Automatic Stash)"
             }
         ]
     },
