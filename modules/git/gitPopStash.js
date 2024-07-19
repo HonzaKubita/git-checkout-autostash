@@ -13,7 +13,7 @@ function gitPopStash(stashName) {
     // Create a mapping of index to stash message
     const stashes = stashesStrings.map((message, index) => {
         // Remove the "On <branch>: " prefix
-        const formattedMessage = message.replace(/On \w+: /, '');
+        const formattedMessage = message.split(': ')[1];
         return {
             index,
             message: formattedMessage,
