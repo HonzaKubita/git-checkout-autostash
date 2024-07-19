@@ -26,8 +26,8 @@ function gitPopStash(stashName) {
     const stashIndex = stashes.findIndex(stash => stash.message === stashName);
 
     // If the stash was not found, throw an error
-    if (stashIndex === -1) {
-        throw new Error(`Stash "${stashName}" not found`);
+    if (stashIndex == -1) {
+        throw new Error(`No stash found`);
     }
 
     // Pop the stash
