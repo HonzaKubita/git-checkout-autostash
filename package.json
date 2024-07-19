@@ -3,7 +3,7 @@
     "displayName": "Git Checkout Autostash",
     "description": "Adds a command to checkout a branch with automatic stash",
     "icon": "icon.png",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "HonzaKubita",
     "repository": {
         "type": "git",
